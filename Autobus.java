@@ -28,4 +28,11 @@ public class Autobus
     {
         return sitzplaetze;
     }
+    
+    public Autobus()
+    {
+        kennzeichen = "W-1234A";
+        sitzplaetze = 29;
+        anhaenger = false;
+    }
 }
